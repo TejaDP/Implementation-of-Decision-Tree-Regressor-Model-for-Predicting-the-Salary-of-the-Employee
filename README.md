@@ -8,10 +8,10 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Load employee data and split it into training and testing sets.
-2. Train a Decision Tree classifier using entropy as the split criterion.
-3. Evaluate the model using accuracy, confusion matrix, and classification report.
-4. Use the trained model to predict whether a new employee will stay or leave.
+1. Import the dataset and split it into independent variables (features) and dependent variable (salary).
+2. Divide the data into training and testing sets, then train the Decision Tree Regressor model using the training data.
+3. Predict employee salary values using the trained Decision Tree Regressor on the test data.
+4. Evaluate the model performance using regression metrics such as Mean Squared Error (MSE) and R² score.
 ## Program:
 ```
 /*
